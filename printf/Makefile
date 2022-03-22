@@ -6,7 +6,7 @@
 #    By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/26 05:14:59 by aabdou            #+#    #+#              #
-#    Updated: 2022/03/19 16:44:33 by aabdou           ###   ########.fr        #
+#    Updated: 2022/03/21 23:41:50 by aabdou           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,8 +28,8 @@ CFLAGS = -Wall -Wextra -Werror
 all: $(NAME) $(HEADER)
 
 $(NAME): $(SRC) $(HEADER)
-	@$(CC) $(CFLAGS) -c $(SRC)
-	@ar rc $(NAME) *.o
+	$(CC) $(CFLAGS) -c $(SRC)
+	ar rc $(NAME) *.o
 
 clean: 
 	@rm -rf *.o

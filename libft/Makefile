@@ -6,7 +6,7 @@
 #    By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/01 20:36:48 by aabdou            #+#    #+#              #
-#    Updated: 2022/03/19 16:52:41 by aabdou           ###   ########.fr        #
+#    Updated: 2022/03/21 23:42:42 by aabdou           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,10 +72,10 @@ BONUS_OBJS = $(BONUS_SRC:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJECTS) $(HEADER) 
-	$(AR) $(NAME) $(OBJECTS) 
+	@$(AR) $(NAME) $(OBJECTS) 
 
 bonus: $(BONUS_OBJS) $(HEADER)
-	$(AR) $(NAME) $(BONUS_OBJS)
+	@$(AR) $(NAME) $(BONUS_OBJS)
 
 clean:
 	@$(RM) $(OBJECTS) $(BONUS_OBJS)

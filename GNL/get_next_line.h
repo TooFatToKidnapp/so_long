@@ -6,7 +6,7 @@
 /*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/18 13:01:33 by aabdou            #+#    #+#             */
-/*   Updated: 2022/03/16 18:22:29 by aabdou           ###   ########.fr       */
+/*   Updated: 2022/03/21 21:22:40 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include <stdio.h>
-
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 1

@@ -6,7 +6,7 @@
 /*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/05 16:18:36 by aabdou            #+#    #+#             */
-/*   Updated: 2022/03/20 22:27:52 by aabdou           ###   ########.fr       */
+/*   Updated: 2022/03/21 23:32:58 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	render_map(t_game *vars)
 	int	backup_w;
 	int	x1;
 	int	x_map;
-    
+
 	y1 = 0;
 	y_map = 0;
 	backup_w = vars->img_width;
@@ -43,7 +43,6 @@ void	render_map(t_game *vars)
 
 void	put_image_to_map(char p, int x1, int y1, t_game **v)
 {
-	
 	if (p == '1')
 		put_image(&v, x1, y1, "./img/tile1.xpm");
 	else if (p == 'C')
@@ -59,11 +58,6 @@ void	put_image_to_map(char p, int x1, int y1, t_game **v)
 		(*v)->x_p = x1;
 		put_image(&v, x1, y1, "./img/tile0.xpm");
 		put_image(&v, x1, y1, "./img/pg1.xpm");
-	}
-	else if (p == 'B')
-	{
-			put_image(&v, x1, y1, "./img/tile0.xpm");
-			put_image(&v, x1, y1, "./img/bearL.xpm");
 	}
 	else
 		put_image(&v, x1, y1, "./img/tile0.xpm");

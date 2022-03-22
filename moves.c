@@ -6,7 +6,7 @@
 /*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/18 17:16:47 by aabdou            #+#    #+#             */
-/*   Updated: 2022/03/18 17:18:15 by aabdou           ###   ########.fr       */
+/*   Updated: 2022/03/21 21:34:13 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	to_down(t_game **v)
 	if ((*v)->map[((*v)->y_p / 64)][((*v)->x_p / 64)] == 'C')
 		collected(&v);
 		(*v)->img = mlx_xpm_file_to_image(
-			(*v)->mlx_ptr, "./img/pg1.xpm", &img_w, &img_h);	
+			(*v)->mlx_ptr, "./img/pg1.xpm", &img_w, &img_h);
 	mlx_put_image_to_window(
 		(*v)->mlx_ptr, (*v)->mlx_win, (*v)->img, (*v)->x_p, (*v)->y_p);
 }
@@ -132,4 +132,3 @@ void	collected(t_game ***v)
 	mlx_put_image_to_window(
 		(**v)->mlx_ptr, (**v)->mlx_win, (**v)->img, (**v)->x_p, (**v)->y_p);
 }
-

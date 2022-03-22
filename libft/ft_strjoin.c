@@ -6,13 +6,13 @@
 /*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 20:46:47 by aabdou            #+#    #+#             */
-/*   Updated: 2022/03/18 17:21:48 by aabdou           ###   ########.fr       */
+/*   Updated: 2022/03/21 21:21:20 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-char	*ft_strjoin(char *s1, char  *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
 	size_t	len;
 	char	*s3;
