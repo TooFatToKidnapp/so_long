@@ -6,7 +6,7 @@
 /*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/05 16:17:48 by aabdou            #+#    #+#             */
-/*   Updated: 2022/03/21 23:36:28 by aabdou           ###   ########.fr       */
+/*   Updated: 2022/03/23 20:32:07 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,6 @@ void	exit_door(t_game ***v)
 	}
 	free((**v)->map);
 	ft_printf("\033[1;32m== Success!! ==\033[0m\n");
-	ft_printf("END\n");
 	mlx_destroy_window((**v)->mlx_ptr, (**v)->mlx_win);
 	exit(1);
 }

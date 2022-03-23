@@ -6,7 +6,7 @@
 /*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/02 16:59:12 by aabdou            #+#    #+#             */
-/*   Updated: 2022/03/22 18:30:29 by aabdou           ###   ########.fr       */
+/*   Updated: 2022/03/23 20:31:19 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,19 +28,13 @@ typedef struct s_game
 	void	*mlx_ptr;
 	void	*mlx_win;
 	void	*img;
-	int		wall;
-	int		enemy;
-	int		empty;
 	char	**map;
 	int		img_width;
 	int		img_height;
-	int		p_x;
-	int		p_y;
 	int		moves;
 	int		player;
 	int		exit;
 	int		collectable;
-	int		count;
 }			t_game;
 
 int		check_file_type(char *str, char *type);

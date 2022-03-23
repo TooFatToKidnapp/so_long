@@ -6,7 +6,7 @@
 /*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 21:13:26 by aabdou            #+#    #+#             */
-/*   Updated: 2022/03/22 18:33:49 by aabdou           ###   ########.fr       */
+/*   Updated: 2022/03/23 20:31:37 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ int	animation(t_game *var)
 
 void	init_var(t_game *var)
 {
-	var->count = 0;
 	var->collectable = 0;
 	var->player = 0;
 	var->exit = 0;
