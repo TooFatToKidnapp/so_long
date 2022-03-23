@@ -6,7 +6,7 @@
 #    By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/08 14:36:35 by aabdou            #+#    #+#              #
-#    Updated: 2022/03/22 20:19:32 by aabdou           ###   ########.fr        #
+#    Updated: 2022/03/22 20:28:05 by aabdou           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,7 @@ B_SRC = bonus/so_long_BONUS.c\
 		bonus/map3_BONUS.c\
 		bonus/player_BONUS.c\
 		bonus/moves_BONUS.c\
+		bonus/enemy_BONUS.c \
 		GNL/get_next_line_utils.c\
 		GNL/get_next_line.c\
 
